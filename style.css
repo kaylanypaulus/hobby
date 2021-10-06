@@ -1,0 +1,119 @@
+.hg-conteudo {
+    background-color: rgba(68, 16, 128, 0.549);
+    ;
+}
+
+.hg-conteudo>main {
+    background-color: rgba(112, 104, 116, 0.494);
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1440px;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    background-color: black;
+}
+
+header {
+    padding: 20px 20px;
+    background-color: rgba(68, 16, 128, 0.549);
+}
+
+.hg-conteudo {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+}
+
+.hg-conteudo>nav {
+    order: -1;
+}
+
+.hg-conteudo>main {
+    flex: 1;
+}
+
+@media (min-width: 768px) {
+    .hg-conteudo {
+        flex-flow: row;
+    }
+    .hg-conteudo>aside,
+    .hg-conteudo>nav {
+        flex: 0 0 200px;
+    }
+}
+
+
+/* CONTEÚDO */
+
+header {
+    padding: 5px 5px;
+    background-color: rgba(41, 4, 84, 0.719);
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bolder;
+    font-family: monospace;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h3 {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+aside {
+    background-color: black;
+}
+
+p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+}
+
+nav a:hover {
+    text-decoration: none;
+    padding: 10px 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: rgb(10, 3, 70);
+}
+
+hr {
+    width: 60%;
+    border-color: rgb(27, 4, 88);
+}
